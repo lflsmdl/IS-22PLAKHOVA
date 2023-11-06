@@ -5,9 +5,9 @@ while True:
         b = int(input("Введите сторону b: "))
         c = int(input("Введите сторону c: "))
         if a + b > c and a + c > b and b + c > a:
-            print("Треугольник со сторонами {}, {}, и {} существует".format(a, b, c))
+            print("True")
         else:
-            print("Треугольник со сторонами {}, {}, и {} не существует".format(a, b, c))
+            print("False")
         break
     except ValueError:
         print('Ошибка! Введите целое число.')
