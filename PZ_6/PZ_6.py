@@ -6,6 +6,6 @@ def check_alternating(numbers):
             return i
     return 0
 
-arr = [1, -2, 3, -4, 5, -6]
+arr = [1, -2, 3,5, -6]
 result = check_alternating(arr)
 print(result)
